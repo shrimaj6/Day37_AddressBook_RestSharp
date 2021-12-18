@@ -124,7 +124,7 @@ namespace AddressBookTest
             Assert.AreEqual("355888", address.ZipCode);
             Console.WriteLine(response.Content);
         }
-
+        
         [TestMethod]
         public void OnCallingDeleteAPI_ReturnSuccessStatus()
         {
